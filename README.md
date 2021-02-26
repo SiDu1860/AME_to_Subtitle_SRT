@@ -6,3 +6,12 @@ Created by Simon Duschl, ARRI, sduschl@arri.de | Arnold & Richter Cinetechnik, M
 
 External module "timecode" is used -> https://pypi.org/project/timecode/#description
 
+To generate a CSV with ARRI Meta Extract (https://www.arri.com/en/learn-help/learn-help-camera-system/tools/arri-meta-extract) which can be read by this short python code, please only select these Metadata fields in the ARRI Meta Extract:
+
+# Master TC
+# Camera Clip Name
+# Lens Focus Distance
+
+A sample CSV is also available in this project. Please verify that your generated CSV and columns are equal to this sample CSV. If there are more columns the code needs to be changed. 
+
+
