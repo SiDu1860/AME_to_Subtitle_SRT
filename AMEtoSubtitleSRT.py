@@ -1,7 +1,10 @@
 # Version: 0.5.1 beta
 # Last changes: 2021-02-26
 
-
+# Created by Simon Duschl, ARRI, sduschl@arri.de | Arnold & Richter Cinetechnik, Munich (c) 2021
+# Read CSV from ARRI Meta Extract and write the values from a given column frame accurate into a SRT Subtitle File.
+# e.g. frame accurate Focus Distance information. The SRT can be used in many post production tools.
+# External module "timecode" is used -> https://pypi.org/project/timecode/#description
 
 from pathlib import Path
 from timecode import Timecode
@@ -57,4 +60,5 @@ with open('F003C005_190925_MN99.mxf.csv', 'rt') as f:
 
         file1.close()
 
+print("Operation done! Please find your SRT file in this python code main directory!")
 
