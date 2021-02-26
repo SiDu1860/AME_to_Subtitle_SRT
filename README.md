@@ -6,7 +6,9 @@ Created by Simon Duschl, ARRI, sduschl@arri.de | Arnold & Richter Cinetechnik, M
 
 External module "timecode" is used -> https://pypi.org/project/timecode/#description
 
-To generate a CSV with ARRI Meta Extract (https://www.arri.com/en/learn-help/learn-help-camera-system/tools/arri-meta-extract) which can be read by this short python code, please only select these Metadata fields in the ARRI Meta Extract:
+To generate a CSV with [ARRI Meta Extract](https://www.arri.com/en/learn-help/learn-help-camera-system/tools/arri-meta-extract) which can be read by this short python code.
+
+**Please only select these Metadata fields in the ARRI Meta Extract for the CSV export:**
 
 # Master TC
 # Camera Clip Name
