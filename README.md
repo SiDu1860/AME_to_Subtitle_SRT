@@ -1,4 +1,5 @@
 Version: 0.5.3 beta
+
 Last changes: 2022-01-11
 
 Created by Simon Duschl, ARRI, sduschl@arri.de | Arnold & Richter Cinetechnik, Munich (c) 2021
