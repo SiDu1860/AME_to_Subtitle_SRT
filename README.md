@@ -8,18 +8,21 @@ e.g. frame accurate Focus Distance information. The SRT can be used in many post
 External module "timecode" is used -> https://pypi.org/project/timecode/#description
 
 Please verify that for an AME extract only Camera Clip Name, Master TC, Lens Focal Length and Lens Focus Distance is selected.
-column1 = Index
-column2 = Master TC
-column3 = Camera Clip Name
-column4 = Master TC (again)
-column5 = Lens Focus Distance
-column1 = Lens Focal Length
+
+- column1 = Index
+- column2 = Master TC
+- column3 = Camera Clip Name
+- column4 = Master TC (again)
+- column5 = Lens Focus Distance
+- column6 = Lens Focal Length
+
 
 **Changelog: 0.5.3 beta**
 
 - added user input for 24 or 25 project speed/timecode
 - added user input for file name
 - user can select to write Focus Distance or Focal Length to SRT file
+
 
 **Important instructions:**
 
